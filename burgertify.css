@@ -1,0 +1,118 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.nav {
+    background-color: #151a37;
+    width: 100%;
+    height: 125px;
+    margin: 0px;
+    display: flex; 
+    align-items: center;
+    overflow: hidden;
+    
+
+
+}
+
+body {
+    margin: 0px;
+    background: linear-gradient(0deg, rgb(16, 4, 70) 0%, rgb(70, 15, 141) 100%);
+}
+
+.logo {
+    width: 35%;
+    margin: 15PX ;
+}
+
+.lista {
+    color: white;
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    margin: 30px;
+
+}
+
+.item {
+    display: inline-block;
+    justify-content: space-between;
+    font-family: 'Press Start 2P', cursive;
+    font-size: 10px;
+    padding: 10px;
+}
+
+
+
+    
+.promocion {
+    display: flex;
+    display: block;
+  margin-left: auto;
+  margin-right: auto;
+  width: 75%;
+  margin: 20px;
+}
+
+.producto_Info {
+    font-family: Silkscreen;
+    color: aliceblue;
+    font-size: 20px;
+    font-style: Bold;
+}
+
+.producto_Nombre {
+    font-family: 'Press Start 2P', cursive;
+    display: block;
+    color: aliceblue;
+    font-size: 35px;
+    font-style: normal;
+}
+
+.producto_Titulo {
+    color: aliceblue;
+    font-size: 45px;
+    display: block;
+    display: flex;
+    justify-content: center;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.contenedor_Hamburguesas {
+    display: flex;
+    justify-content: space-around;
+    margin: 100px
+;}
+
+.contenedor_Entradas {
+        display: flex;
+        justify-content: space-between;
+        margin: 100px
+;}
+
+.contenedor_Bebidas {
+    display: flex;
+    justify-content: space-between;
+    margin: 100px;
+     
+;}
+
+
+.boton-Flotante {
+    display: scroll;
+    position: fixed;
+    bottom: 10%;
+    right: 0px;
+    z-index: 999999;
+    background: #ffffff;
+    color: #000000;
+    font-size: 20px;
+    line-height: 27px;
+    border-radius: 10px 0 0 10px;
+    padding: 20px 40px 20px 25px;
+    font-family: 'Press Start 2P', cursive;
+}
+
+.item:hover {
+    color: lime;
+
+}
